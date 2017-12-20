@@ -1,0 +1,97 @@
+@import url("css/normalize.css");
+@font-face{
+  font-family:"SpecialElite";
+   src:url("font/SpecialElite.woff")
+}
+
+@font-face{
+  font-family:"Cardoitalic";
+   src:url("font/cardo-italic.woff")
+}
+
+@font-face{
+  font-family:"Cardoregular";
+   src:url("font/cardo-regular.woff")
+
+
+}@font-face{
+  font-family:"Cardobold";
+   src:url("font/cardo-bold.woff")
+}
+
+body {font-family: "Cardoregular";
+background-size: 100% 1.5em;
+background-image: -webkit-linear-gradient(#eee .05em, transparent 1px);
+background-image: -moz-linear-gradient(#eee .05em, transparent 1px);
+background-image: linear-gradient(#eee .05em, transparent 1px);}
+
+h1 {font-size: 4em;}
+
+.rope {color: red}
+.red {color: blue;}
+.citate {font-family: "Cardoitalic";}
+
+
+h2 {font-size: 2.5em;
+line-height: = 1.2;}
+
+
+h3 {font-size: 1.7em;
+line-height: 1;}
+
+.container-wrapper {
+  max-width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+
+
+.title {font-family: "Cardoregular";
+  text-transform:uppercase;
+}
+.author {
+  text-align: right;
+}
+
+.fluoret {color: red;
+
+text-align: center;
+}
+
+.leonardas {
+  font-family:"Cardoitalic";
+
+
+  margin-left:0px;
+}
+
+.leonardas:before{
+  content: open-quote;
+
+  margin-left: -11px;
+}
+
+.author{
+  text-transform: uppercase;
+  display: block;
+font-size: 0.6em;
+  text-align: align : right;
+}
+
+.about{
+text-align: justify;
+}
+
+.about::first-letter{
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+
+
+.title, .sub-title{
+font-family: "SpecialElite";
+text-align: left;
+  text-transform:uppercase;
+}
